@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink } from "lucide-react"
+import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
     {
@@ -8,6 +8,7 @@ const projects = [
         image: "/projects/project1.png",
         tags: ["ReactJS", "TailwindCSS", "FastAPI", "MongoDB"],
         demoUrl: "#",
+        gitUrl: "https://github.com/MichaelShoo/Mood-Tracker-App"
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ const projects = [
         image: "/projects/project2.png",
         tags: ["OpenCV", "MSS", "RT-Data-Processing", "Computer-Vision",],
         demoUrl: "#",
+        gitUrl: "https://github.com/MichaelShoo/Poker-RTA-Overlay-Tool"
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ const projects = [
         image: "/projects/project3.png",
         tags: ["Python", "Tkinter", "OOP", "Game-AI", "DSA"],
         demoUrl: "#",
+        gitUrl: "https://github.com/MichaelShoo/Tic-Tac-Toe-Bot"
     }
 ]
 
@@ -67,6 +70,13 @@ export const ProjectsSection = () => {
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                 > 
                                     <ExternalLink size={20}/>
+                                </a>
+
+                                <a href={project.gitUrl} 
+                                target="_blank"
+                                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                > 
+                                    <Github size={20}/>
                                 </a>
                             </div>
                         </div>

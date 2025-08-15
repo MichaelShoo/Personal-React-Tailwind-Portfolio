@@ -34,7 +34,6 @@ export const AboutSection = () => {
                 Get in Touch
               </a>
 
-              {/* This button downloads the PDF from /public */}
               <a
                 href="/Michael_Xu_Resume.pdf"
                 download

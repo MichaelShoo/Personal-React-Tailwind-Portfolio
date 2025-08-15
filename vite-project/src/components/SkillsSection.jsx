@@ -18,9 +18,12 @@ const skills = [
     {name: "Git/Github", level:85, category: "tools"},
     {name: "ReactJS", level:80, category: "tools"},
     {name: "Virtual Machines", level:75, category: "tools"},
+    {name: "OpenCV", level:75, category: "tools"},
     {name: "Pandas", level:70, category: "tools"},
-    {name: "Flask", level:65, category: "tools"},
     {name: "PySerial", level:70, category: "tools"},
+    {name: "MongoDB", level:70, category: "tools"},
+    {name: "FastAPI", level:70, category: "tools"},
+    {name: "Flask", level:65, category: "tools"}
 ]
 
 const categories = ["all", "languages", "tools"];
